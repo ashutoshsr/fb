@@ -14,7 +14,7 @@ public class LevelLinkedLists {
 		System.out.println(levels.get(2));
 	}
 
-	private void levelList(TreeNode root, int level,
+	public void levelList(TreeNode root, int level,
 			ArrayList<LinkedList<TreeNode>> levels) {
 		if (root == null) {
 			return;
