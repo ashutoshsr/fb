@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.junit.Test;
+
 public class LevelLinkedListsTest {
     @Test
         public void shouldAnswerWithTrue()
