@@ -21,7 +21,6 @@ public class LevelLinkedLists {
 		level++;
 		levelList(root.left, level, levels);
 		levelList(root.right, level, levels);
-        return true;
 	}
 
 	private void visit(TreeNode node, int level) {
